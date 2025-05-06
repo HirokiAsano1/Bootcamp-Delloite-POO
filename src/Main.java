@@ -3,9 +3,9 @@
 public class Main {
     public static void main(String[] args) {
         Pessoa pessoa1 =  new Pessoa("Lucas",18);
-        Pessoa pessoa2 = new Pessoa("Gilberto",16);
-        System.out.println(pessoa1.getNome()+" "+pessoa1.maiorIdade());
-        System.out.println(pessoa2.getNome()+" "+pessoa2.maiorIdade());
+        Pessoa pessoa2 = new Pessoa("Gilberto",17);
+        System.out.println(pessoa1.verificarIdade());
+        System.out.println(pessoa2.verificarIdade());
 
         if(pessoa1.getIdade()> pessoa2.getIdade())
         {

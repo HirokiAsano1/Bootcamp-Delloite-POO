@@ -7,13 +7,13 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public String maiorIdade()
+    public String verificarIdade()
     {
         if(this.idade>=18)
         {
-            return "É Maior de idade";
+            return this.nome+" é Maior de idade";
         }
-        return  "É menor de idade";
+        return  this.nome+" é menor de idade";
     }
 
     public String getNome() {
